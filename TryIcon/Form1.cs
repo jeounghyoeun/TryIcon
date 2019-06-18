@@ -15,5 +15,13 @@ namespace TryIcon
         {
             InitializeComponent();
         }
+
+        private void VisibleChange(bool visible)
+        {
+            this.Visible = visible;
+            this.ntiTray.Visible = !visible;
+        }
+
+
     }
 }
